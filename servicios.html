@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="materialize/css/materialize.css">
+	<title>Servicios</title>
+	<link rel="shortcut icon" type="img/png" href="img/02.png">	
+
+  <div class="center section" style="width: 150px;height: 150px; position: absolute; top:50%; left: 50%; margin-top: -75px;margin-left: -75px" id="circulo" >
+  <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<div class="hide" id="contenido">
+<header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper teal lighten-2">
+        <a href="index.html" class="brand-logo" style="font-family: 'Merriweather', serif;">LumiDent</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="especialidades.html">Especialidades</a></li>
+          <li><a href="calendario.html">Calendario</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="faqs.html">FAQ's</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>     
+</header>	
+
+<body>
+	<div class="container">
+      <div class="row">
+
+        <div class="col s12 m5">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/preve.jpg">
+            </div>
+            <div class="card-content">
+ 			<h4>Odontología preventiva</h4>
+			<p>Aplicación de flúor, selladores de fosetas y fisuras.</p>
+            </div>
+          </div>
+        </div>
+
+          <div class="col s12 m5">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/laser.jpeg">
+            </div>
+            <div class="card-content">
+			<h4>Eliminación de caries con sistema láser</h4>
+            </div>
+          </div>
+        </div>
+        </div>
+		<div class="row">
+         <div class="col s12 m5">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/quiru.png">
+            </div>
+            <div class="card-content">
+			<h4>Tratamientos periodontales quirúrgicos y no quirúrgicos</h4>
+			<p>Tratamientos de encía y hueso.s</p>
+            </div>
+          </div>
+        </div>
+
+          <div class="col s12 m5">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/perio.jpeg">
+            </div>
+            <div class="card-content">
+			<h4>Odontología mínimamente invasiva, realizada con fresas de fisurotomia</h4>
+			<p>En caries superficiales no hay destrucción de tejido sano.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+      </div>
+
+<footer class="page-footer teal lighten-2">
+	<div class="container">
+	<div class="row">
+ 	<div class="col l6 s12">
+	    <h5 class="white-text">Sucursal</h5>
+	    <p class="grey-text text-lighten-4">Tlaxcala No. 61 Int. 103 - 105</p>
+	    <p class="grey-text text-lighten-4">Col. Hipódromo Condesa</p>
+	    <p class="grey-text text-lighten-4">C.P. 06300</p>
+        <p class="grey-text text-lighten-4">Del. Benito Juárez</p>
+	    <p class="grey-text text-lighten-4">México, D.F</p>
+	    <p class="grey-text text-lighten-4">Tel: 5553 4432</p>
+ 	</div>
+	<div class="col l4 offset-l2 s12">
+	    <h5 class="white-text">Redes sociales</h5>
+	    <ul>
+	    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/">Facebook</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/?hl=es-la">Instagram</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://twitter.com/">Twitter</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/">Youtube</a></li>
+	    </ul>
+	</div>
+	</div>
+	</div>
+	<div class="footer-copyright">
+ 	<div class="container">
+	© 2019 Copyright Fernando Maceda Patricio
+	</div>
+	</div>
+	</footer>
+ 	</div>
+</body>
+<script>
+	
+	window.addEventListener('load', () =>
+	{
+		setTimeout(carga, 1500);
+		function carga()
+		{
+			document.getElementById('circulo').className = 'hide';
+
+			document.getElementById('contenido').className = '';
+		}
+	})
+
+</script>
+</html>

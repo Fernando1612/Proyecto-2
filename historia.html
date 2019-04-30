@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="materialize/css/materialize.css">
+	<title>Historia</title>
+	<link rel="shortcut icon" type="img/png" href="img/02.png">	
+	
+
+ <div class="center section" style="width: 150px;height: 150px; position: absolute; top:50%; left: 50%; margin-top: -75px;margin-left: -75px" id="circulo" >
+  <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<div class="hide" id="contenido">	
+</head>
+<header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper teal lighten-2">
+        <a href="index.html" class="brand-logo" style="font-family: 'Merriweather', serif;">LumiDent</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="especialidades.html">Especialidades</a></li>
+          <li><a href="calendario.html">Calendario</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="faqs.html">FAQ's</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>     
+</header>	
+
+<body>
+
+	<div class="container">
+		<h3 style="font-family: 'Merriweather', serif;">Historia</h3>
+		<blockquote>
+		<img align="right" src="img/clini.jpg" alt="clinica">
+		<p class="flow-text" class="center-align">LumiDent desde sus comienzos ha sido su interés la actualización de su personal médico y paramédico. La modernización, la introducción de los avances tecnológicos de la ciencia ondontologica y la ampliación de los servicios y la infraestructura física y laboral son los principales objetivos que han guiado a esta organización hospitalaria privada más importante de la Ciudad de México.</p>
+		<p class="flow-text" class="center-align">Alcanzar esta categoría no es productos de la casualidad, sino el resultado de la dedicación, esfuerzo y trabajo de un grupo de dentistas y empresarios visionarios que vislumbraron el éxito y los beneficios que se brindan a la comunidad yucateca y regional desde el momento mismo en que se conoció el proyecto que condujo a la integración de la Sociedad Clínica de México en la memorable fecha del 15 de junio de 2013. <br>El consejo de administración fundador de LumiDent lo integraron el Ing. Arturo Ponce G. Cantón, presidente; Dr. Hernán Casares Ponce, secretario; y los doctores Gustavo Casares Rendón, Luís Alberto Navarrete Ruiz del Hoyo (también director general), Raúl Cárdenas Torre, Manuel Valencia Romero, Rubén Puerto Puerto, Fernando Cámara y Cámara y Juan Pinto Aranda, consejeros.</p>
+		<img align="right" src="img/quiro.jpg">
+		<p class="flow-text" class="center-align">Correspondió a este grupo de dirigentes la satisfacción de encabezar la apertura de LumiDent el 15 de agosto de 2017, en un acto inaugural a cargo del oficial yor de gobierno del estado de aquel entonces Lic. Nicolás López Rivas, quien participo con la representación del Gobernador Sr. Luís Torres Mesías. El edificio se construyó con base en un diseño del desaparecido arquitecto y pintor Fernando García Ponce, y bajo la supervisión del Ing. Álvaro Ponce Peón. Junto con su inauguración, en forma simultánea la clínica dio el banderazo para su crecimiento tanto científico como material, con el propósito de tratar a los pacientes con mayor habilidad y conocimiento parar preservar o recuperar su salud.</p>
+		</blockquote>
+	</div>
+
+<footer class="page-footer teal lighten-2">
+	<div class="container">
+	<div class="row">
+ 	<div class="col l6 s12">
+	    <h5 class="white-text">Sucursal</h5>
+	    <p class="grey-text text-lighten-4">Tlaxcala No. 61 Int. 103 - 105</p>
+	    <p class="grey-text text-lighten-4">Col. Hipódromo Condesa</p>
+	    <p class="grey-text text-lighten-4">C.P. 06300</p>
+        <p class="grey-text text-lighten-4">Del. Benito Juárez</p>
+	    <p class="grey-text text-lighten-4">México, D.F</p>
+	    <p class="grey-text text-lighten-4">Tel: 5553 4432</p>
+ 	</div>
+	<div class="col l4 offset-l2 s12">
+	    <h5 class="white-text">Redes sociales</h5>
+	    <ul>
+	    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/">Facebook</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/?hl=es-la">Instagram</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://twitter.com/">Twitter</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/">Youtube</a></li>
+	    </ul>
+	</div>
+	</div>
+	</div>
+	<div class="footer-copyright">
+ 	<div class="container">
+	© 2019 Copyright Fernando Maceda Patricio
+	</div>
+	</div>
+	</footer>
+
+</div>
+</body>
+<script>
+	
+	window.addEventListener('load', () =>
+	{
+		setTimeout(carga, 1500);
+		function carga()
+		{
+			document.getElementById('circulo').className = 'hide';
+
+			document.getElementById('contenido').className = '';
+		}
+	})
+
+</script>
+</html>

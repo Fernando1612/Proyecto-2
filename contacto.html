@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="materialize/css/materialize.css">
+	<title>Contacto</title>
+	<link rel="shortcut icon" type="img/png" href="img/02.png">	
+
+
+  <div class="center section" style="width: 150px;height: 150px; position: absolute; top:50%; left: 50%; margin-top: -75px;margin-left: -75px" id="circulo" >
+  <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<div class="hide" id="contenido">
+<header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper teal lighten-2">
+        <a href="index.html" class="brand-logo" style="font-family: 'Merriweather', serif;">LumiDent</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="especialidades.html">Especialidades</a></li>
+          <li><a href="calendario.html">Calendario</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="faqs.html">FAQ's</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>     
+</header>	
+
+<body>
+	
+	<h3>Nuestros datos</h3>
+
+      <table class="responsive-table" class="striped">
+
+        <tbody>
+          <tr>
+            <td>Teléfono:   (55) 5942 3831</td>
+          </tr>
+          <tr>
+          	<td>Dirección:  Antonio Hidalgo No. 35, Col. Constitución de 1917, Delegación Iztapalapa C.P 09260, México D.F</td>
+          </tr>
+          <tr>
+          	<td>Mail:           contacto@gmail.com.mx</td>
+          </tr>
+        <table>
+        <thead>
+          <tr>
+              <th>Horario</th>
+          <tbody>
+          <tr>
+            <td>lun:	7:00–21:00</td>
+            <td>mar:	7:00–21:00</td>
+          </tr>
+
+          <tr>
+            <td>mié:	7:00–21:00</td>
+            <td>jue:	7:00–21:00</td>
+          </tr>
+          <tr>
+            <td>vie:	7:00–21:00</td>
+            <td>sab:	7:00–21:00</td>
+          </tr>
+          <tr>
+            <td>dom: 	10:00–16:00</td>
+          </tr>
+      </tbody>
+      </table>
+        </thead>
+        </tbody>
+      </table>
+
+	<div class="conteiner" align="center">
+		<div class="row">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.2988534032206!2d-99.06201307083482!3d19.31732489918438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce025e6bd7be01%3A0x2f88e84b3179dbdc!2sFlor+de+Dalia+69%2C+Lomas+de+San+Lorenzo%2C+09780+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1556596218813!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	</div>
+
+<footer class="page-footer teal lighten-2">
+	<div class="container">
+	<div class="row">
+ 	<div class="col l6 s12">
+	    <h5 class="white-text">Sucursal</h5>
+	    <p class="grey-text text-lighten-4">Tlaxcala No. 61 Int. 103 - 105</p>
+	    <p class="grey-text text-lighten-4">Col. Hipódromo Condesa</p>
+	    <p class="grey-text text-lighten-4">C.P. 06300</p>
+        <p class="grey-text text-lighten-4">Del. Benito Juárez</p>
+	    <p class="grey-text text-lighten-4">México, D.F</p>
+	    <p class="grey-text text-lighten-4">Tel: 5553 4432</p>
+ 	</div>
+	<div class="col l4 offset-l2 s12">
+	    <h5 class="white-text">Redes sociales</h5>
+	    <ul>
+	    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/">Facebook</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/?hl=es-la">Instagram</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://twitter.com/">Twitter</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/">Youtube</a></li>
+	    </ul>
+	</div>
+	</div>
+	</div>
+	<div class="footer-copyright">
+ 	<div class="container">
+	© 2019 Copyright Fernando Maceda Patricio
+	</div>
+	</div>
+	</footer>
+</div>
+</body>
+<script>
+	
+	window.addEventListener('load', () =>
+	{
+		setTimeout(carga, 1500);
+		function carga()
+		{
+			document.getElementById('circulo').className = 'hide';
+
+			document.getElementById('contenido').className = '';
+		}
+	})
+
+</script>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="materialize/css/materialize.css">
+	<title>Nosotros</title>
+	<link rel="shortcut icon" type="img/png" href="img/02.png">	
+
+  <div class="center section" style="width: 150px;height: 150px; position: absolute; top:50%; left: 50%; margin-top: -75px;margin-left: -75px" id="circulo" >
+  <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<div class="hide" id="contenido">
+<header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper teal lighten-2">
+        <a href="index.html" class="brand-logo" style="font-family: 'Merriweather', serif;">LumiDent</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="especialidades.html">Especialidades</a></li>
+          <li><a href="calendario.html">Calendario</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="faqs.html">FAQ's</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>     
+</header>	
+
+<body>
+	<div class="container">
+	<h1>Acerca de nosotros</h1>
+	<blockquote>
+	<h3>¿Quiénes somos?</h3>
+	<p class="flow-text" class="center-align">Como clínica, proporcionamos servicio de odontología integral con todas las especialidades y para eso contamos con doctores encargados de atender cualquier tratamiento en beneficio de su salud y de su estética. Nuestras instalaciones, cumplen con todas las normas de higiene, los materiales y equipo utilizado, son de la más alta calidad y vanguardia tecnológica. <br>
+	En el Centro de Estudios, participan profesionales con amplia experiencia en el ámbito educativo y campo de la odontología, son profesores de alto nivel académico que brinda aprendizaje de excelencia.</p>
+	<h3>Misión</h3>
+	<p class="flow-text" class="center-align" >Ser la mejor cadena de consultorios de atención dental integral para todo tipo de población con padecimientos bucales, ofrecer precios competitivos y así prevenir, rehabilitar y controlar las afecciones bucales.</p>
+	<h3>Visión</h3>
+	<p class="flow-text" class="center-align">Ser la mejor cadena de consultorios de la más alta calidad y con la mejor tecnología que logre satisfacer todas las necesidades de los pacientes, que tenga una excelente estructura administrativa para así ofrecer los mejores precios para todo tipo de población, con unos servicios de excelencia para todos nuestros pacientes.</p>
+	</blockquote>
+</div>
+
+<footer class="page-footer teal lighten-2">
+	<div class="container">
+	<div class="row">
+ 	<div class="col l6 s12">
+	    <h5 class="white-text">Sucursal</h5>
+	    <p class="grey-text text-lighten-4">Tlaxcala No. 61 Int. 103 - 105</p>
+	    <p class="grey-text text-lighten-4">Col. Hipódromo Condesa</p>
+	    <p class="grey-text text-lighten-4">C.P. 06300</p>
+        <p class="grey-text text-lighten-4">Del. Benito Juárez</p>
+	    <p class="grey-text text-lighten-4">México, D.F</p>
+	    <p class="grey-text text-lighten-4">Tel: 5553 4432</p>
+ 	</div>
+	<div class="col l4 offset-l2 s12">
+	    <h5 class="white-text">Redes sociales</h5>
+	    <ul>
+	    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/">Facebook</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/?hl=es-la">Instagram</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://twitter.com/">Twitter</a></li>
+	    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/">Youtube</a></li>
+	    </ul>
+	</div>
+	</div>
+	</div>
+	<div class="footer-copyright">
+ 	<div class="container">
+	© 2019 Copyright Fernando Maceda Patricio
+	</div>
+	</div>
+	</footer>
+	</div>
+</body>
+<script>
+	
+	window.addEventListener('load', () =>
+	{
+		setTimeout(carga, 1500);
+		function carga()
+		{
+			document.getElementById('circulo').className = 'hide';
+
+			document.getElementById('contenido').className = '';
+		}
+	})
+
+</script>
+</html>
